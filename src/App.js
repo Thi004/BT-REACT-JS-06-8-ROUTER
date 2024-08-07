@@ -10,9 +10,9 @@ function App() {
    <>
 <Routes>
     <Route element={<User/>} path={'user'}>
-        <Route element={<ListProduct/>} path={'/user/list-product'}></Route>
-        <Route element={<HotProduct/>} path={'/user/hot-product'}></Route>
-        <Route element={<Category/>} path={'/user/category'}></Route>
+        <Route element={<ListProduct/>} path={'list-product'}></Route>
+        <Route element={<HotProduct/>} path={'hot-product'}></Route>
+        <Route element={<Category/>} path={'category'}></Route>
     </Route>
     <Route>
         <Route element={<Admin/>} path={'/user/admin'}></Route>
