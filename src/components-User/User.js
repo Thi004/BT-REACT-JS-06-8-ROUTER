@@ -11,7 +11,7 @@ function User () {
                             |
                             <li><Link to='hot-product'>Hot</Link></li> |
                             <li><Link to='category'>Category</Link></li> |
-                            <li><Link to='admin'>Admin</Link></li>
+                            <li><Link to='/admin'>Admin</Link></li>
                         </ul>
                     </nav>
                 </div>
