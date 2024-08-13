@@ -1,4 +1,4 @@
-import '../style/Category.css'
+import './style0608/Category.css'
 function Category () {
     return (
         <div className='category'>

@@ -1,4 +1,4 @@
-import '../style/Admin.css'
+import '../components0608-User/style0608/Admin.css'
 import {Outlet, useNavigate} from "react-router-dom";
 
 function Admin() {

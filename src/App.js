@@ -1,21 +1,27 @@
 import {Route, Routes} from "react-router-dom";
-import User from "./components-User/User";
-import ListProduct from "./components-User/ListProduct";
-import HotProduct from "./components-User/HotProduct";
-import Category from "./components-User/Category";
-import Admin from "./components-Admin/Admin";
+import Home from "./components0808/Home";
+import Cart from "./components0808/page/Cart";
+import Detail from "./components0808/page/Detail";
+import Login from "./components0808/page/Login";
+import Register from "./components0808/page/Register";
+
 
 function App() {
     return (
         <>
-            <Routes>
-                <Route element={<User/>} path={'user'}>
-                    <Route element={<ListProduct/>} path={'list-product'}></Route>
-                    <Route element={<HotProduct/>} path={'hot-product'}></Route>
-                    <Route element={<Category/>} path={'category'}></Route>
-                </Route>
-                <Route element={<Admin/>} path={'admin'}></Route>
-            </Routes>
+            {/*component0608*/}
+            {/*<Routes>*/}
+            {/*    <Route element={<User/>} path={'user'}>*/}
+            {/*        <Route element={<ListProduct/>} path={'list-product'}></Route>*/}
+            {/*        <Route element={<HotProduct/>} path={'hot-product'}></Route>*/}
+            {/*        <Route element={<Category/>} path={'category'}></Route>*/}
+            {/*    </Route>*/}
+            {/*    <Route element={<Admin/>} path={'admin'}></Route>*/}
+            {/*</Routes>*/}
+
+            {/*components0808*/}
+
+            <Home/>
         </>
     );
 }

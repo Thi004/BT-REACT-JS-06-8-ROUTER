@@ -1,4 +1,4 @@
-import '../style/User.css'
+import './style0608/User.css'
 import {Link, Outlet} from "react-router-dom";
 function User () {
     return (
