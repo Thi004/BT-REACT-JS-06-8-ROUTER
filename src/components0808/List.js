@@ -13,19 +13,22 @@ export default function List() {
         <>
             <div className="row">
                 <div className="col-12"><h1>List Student</h1>
-                    {list.map(item => (
-                        <div className="row">
-                            <div className="col-4 mt-2">
-                                <div className="card">
-                                    <div className="card-body">
-                                        <h5 className="card-title">{item.name}</h5>
-                                        <p className="card-text">{item.score}</p>
-                                        <Link to={'/detail' + item.id}>Go Detail Student</Link>
+                    <div className="row">
+                        {list.map(item => (
+                            <>
+                                <div className="col-4 mt-2">
+                                    <div className="card">
+                                        <div className="card-body">
+                                            <h5 className="card-title">{item.name}</h5>
+                                            <p className="card-text">{item.score}</p>
+                                            <Link to={'/detail/' + item.id}>Go Detail Student</Link>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    ))}
+                            </>
+                        ))}
+                    </div>
+
                 </div>
             </div>
         </>
